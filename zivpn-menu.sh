@@ -589,7 +589,7 @@ TMP_FILE="/tmp/zivpn-menu-$(date +%s).sh"
 curl -fsSL \
   -H "Cache-Control: no-cache" \
   -H "Pragma: no-cache" \
-  "https://raw.githubusercontent.com/sweaterpink1999/udp-zivpn-sweaterpink/main/zivpn-menu.sh?nocache=$(date +%s)" \
+  "https://github.com/wawuhda-gif/udp-zivpn-sweaterpink/raw/main/zivpn-menu.sh?nocache=$(date +%s)" \
   -o "$TMP_FILE"
 
 if [ ! -s "$TMP_FILE" ]; then
